@@ -23,13 +23,13 @@ export default function Cocktails({id}) {
   } 
   return (
     <div>
-      <h2 style={{ color: "white" }}>name: {cocktail.strDrink}</h2>
+      <h1 style={{ color: "white" }}>{cocktail.strDrink}</h1>
       <p style={{ color: "white" }}>It is {cocktail.strAlcoholic}!</p>
       <img
-        style={{ width: "70%", borderRadius: "20px" }}
+        style={{ width: "50%", borderRadius: "20px" }}
         src={cocktail.strDrinkThumb}
       ></img>
-      <h4 style={{ color: "white" }}>{cocktail.strInstructions}</h4>
+      <h2 style={{ color: "white" }}>{cocktail.strInstructions}</h2>
       <h2 style={{ color: "white" }}>Buon Appetito!</h2>
     </div>
   );
