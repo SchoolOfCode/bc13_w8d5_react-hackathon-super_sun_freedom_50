@@ -8,7 +8,7 @@ export default function Cocktails({id}) {
   useEffect(() => {
     async function getCocktails() {
       const response = await fetch(
-        `https://thecocktaildb.com/api/json/v1/1/lookup.php?iid=552`
+        `http://thecocktaildb.com/api/json/v1/1/random.php`
       );
       const data = await response.json();
       console.log(data);
