@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body{
+  background-image: url(./pexels-luciann-photography-3566120.jpg);
+};
+
 
 .App-logo {
   height: 40vmin;
