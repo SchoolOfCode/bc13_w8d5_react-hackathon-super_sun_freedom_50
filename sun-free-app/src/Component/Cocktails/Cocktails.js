@@ -8,12 +8,7 @@ export default function Cocktails() {
   useEffect(() => {
     async function getCocktails() {
       const response = await fetch(
-        `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita`,
-        {
-          headers: {
-            accept: "application/json",
-          },
-        }
+        `http://thecocktaildb.com/api/json/v1/1/random.php`
       );
       const data = await response.json();
       console.log(data);
